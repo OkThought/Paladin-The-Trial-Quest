@@ -1,0 +1,16 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "lib": [
+            "dom",
+            "es5"
+        ],
+        "target": "es5",
+        "jsx": "react-jsx"
+    }
+}
